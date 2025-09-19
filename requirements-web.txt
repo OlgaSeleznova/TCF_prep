@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+websockets
+torch
+transformers
+pyaudio
+numpy
+datasets
