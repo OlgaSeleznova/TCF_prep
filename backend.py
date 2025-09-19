@@ -113,18 +113,13 @@ class AudioTranscriber:
             else:
                 input_features = input_features.float()
 
-            # Set language to French
-            forced_decoder_ids = self.processor.get_decoder_prompt_ids(
-                language="french",
-                task="transcribe"
-            )
-
             # Generate transcription using model's generate method for long-form
             with torch.no_grad():
                 predicted_ids = self.model.generate(
                     input_features,
                     attention_mask=attention_mask,
-                    forced_decoder_ids=forced_decoder_ids,
+                    task="transcribe",
+                    language="fr",
                     max_new_tokens=440,
                     do_sample=False,
                     num_beams=1
