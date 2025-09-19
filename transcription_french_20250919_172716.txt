@@ -1,0 +1,5 @@
+[17:27:16] Dimanche, il fera beau. J'aimerais bien faire un peu de sport. Tu veux faire du vélo avec moi ? 
+A. attends, je prends mes lunettes de soleil. 
+B. bonne idée, on pourra aller en forêt ? 
+C. c'est d'accord. J'arrive tout de suite. 
+D. quel dommage, demain c'est fermé.
